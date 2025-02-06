@@ -2,8 +2,6 @@
 
 This is quite lenghty file, you can read its short version [here](dockerization.md).
 
-# Dockerization of this Project
-
 ## Table of Contents
 
 1. [Introduction](#introduction)
