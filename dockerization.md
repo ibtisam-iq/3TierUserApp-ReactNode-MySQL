@@ -188,6 +188,16 @@ docker-compose up --build
 
 Ensure sensitive information like database credentials are managed using environment variables.
 
+---
+
+## Summary
+
+- **Frontend**: Dockerized using Node.js and Nginx.
+- **Backend**: Dockerized using Node.js.
+- **Database**: Managed using MySQL Docker image.
+- **Docker Compose**: Used to orchestrate the services.
+
 ## Reference
 
 You can find in-depth information [here](Dockerization.md).
+
