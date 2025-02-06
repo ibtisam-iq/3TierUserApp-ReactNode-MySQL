@@ -1,6 +1,10 @@
 # Dockerization of this Project
 
-## `tree -a`
+This is quite lenghty file, you can read its short version [here](dockerization.md).
+
+## Project Structure
+
+### `tree -a`
 ```plaintext
 .
 ├── client
