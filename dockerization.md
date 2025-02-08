@@ -81,7 +81,7 @@ Create a `Dockerfile` in the `client/` directory:
 
 ```dockerfile
 # Use official Node.js image as the base
-FROM node:14
+FROM node:14-alpine
 
 # Set working directory
 WORKDIR /app
