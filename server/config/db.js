@@ -1,10 +1,12 @@
+require('dotenv').config(); // Load environment variables from .env file
 const mysql = require('mysql');
 
+// Create a connection to the database using environment variables
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'IbtisamOps', // Replace with your actual MySQL password
-  database: 'test_db'
+  host: process.env.DB_HOST,
+  user: process.env.MYSQL_USER,
+  password: process.env.MYSQL_PASSWORD,
+  database: process.env.MYSQL_DATABASE,
 });
 
 db.connect(err => {
